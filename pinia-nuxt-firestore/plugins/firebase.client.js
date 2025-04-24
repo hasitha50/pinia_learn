@@ -2,8 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 export default defineNuxtPlugin(() => {
-
-  console.log(process.env.NUXT_DATABASE_ID)
+  
 const firebaseConfig = {
     apiKey: process.env.NUXT_FIREBASE_API_KEY,
     authDomain: process.env.NUXT_FIREBASE_AUTH_DOMAIN,
